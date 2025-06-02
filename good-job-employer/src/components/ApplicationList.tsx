@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { getJobApplications, updateApplicationStatus } from '../services/jobService';
-import { FileText, Check, X, Clock, UserCheck, Users } from 'lucide-react';
+import { FileText, Check, X, Clock, Users } from 'lucide-react';
 import '../styles/ApplicationList.css';
 
 interface ApplicationListProps {

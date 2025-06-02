@@ -40,7 +40,7 @@ const UpdateProfile: React.FC = () => {
     fetchProfile();
   }, [token, authUser, navigate]);
 
-  const handleProfileUpdate = (updatedUser: User) => {
+  const handleProfileUpdate = () => {
     navigate('/profile', { replace: true });
   };
 
